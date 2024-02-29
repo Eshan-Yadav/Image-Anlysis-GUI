@@ -9,7 +9,7 @@ root.title("Slider Tree")
 
 #add the image path here
 img = cv2.imread('./spine.png', cv2.IMREAD_GRAYSCALE)
-
+print("hi")
 
 def threshold_image(*args):
     global tree
